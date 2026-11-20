@@ -1,10 +1,10 @@
-package com.plan.member_outreach_system;
+package com.plan.memberoutreach;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MemberOutreachSystemApplication {
+public class MemberOutreachApplication {
 
 	public static void main(String[] args) {
 		/* 'SpringApplication.run()' bootstraps the application & launches the Spring container */
@@ -14,7 +14,7 @@ public class MemberOutreachSystemApplication {
 		// 4. loads env -- processes 'application.properties' & CL args
 
 		/*--- 'SpringApplication.run()' instance --- customize settings (ex. disabling banner) & static 'run()' method acts as entry pt for starting SB app */
-		SpringApplication.run(MemberOutreachSystemApplication.class, args);
+		SpringApplication.run(MemberOutreachApplication.class, args);
 	}
 
 }
